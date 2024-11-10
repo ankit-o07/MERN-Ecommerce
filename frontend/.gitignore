@@ -1,0 +1,55 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Dependency directories
+node_modules/
+
+# Build output
+build/
+dist/
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Public output
+/public/static
+
+# Testing output
+coverage/
+jest-output/
+cypress/screenshots/
+cypress/videos/
+
+# Cache and parcel output
+.cache/
+.parcel-cache/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Miscellaneous
+*.pid
+*.seed
+*.pid.lock
+
+# Storybook files
+storybook-static/
+out/
+
+# Next.js output (if using Next.js with React)
+.next/
